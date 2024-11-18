@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: url('https://image.lexica.art/full_jpg/73818094-df0c-401b-b909-357d703b5eab') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full height coverage */
+  padding: 1rem;
+  margin: 0;
+}
+
+.page-border {
+  border: 10px solid rgba(0, 122, 204, 0.8);
+  border-radius: 15px;
+  padding: 1rem;
+  background: #ffffff;
+  width: 100%;
+  max-width: 1200px; /* Limits the page width */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background: rgba(0, 122, 204, 0.8);
+  color: white;
+  padding: 2rem;
+  text-align: left; /* Aligns text to the left */
+  border-radius: 10px 0 0 10px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  border: 3px solid #555;
+}
+
+.contact-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.contact-info a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+}
+
+.content {
+  padding: 2rem;
+  background: #f4f4f9;
+  border-radius: 0 10px 10px 0;
+}
+
+.bio h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.bio p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #222;
+  border-bottom: 2px solid rgba(0, 122, 204, 0.8);
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+a {
+  color: rgba(0, 122, 204, 0.8);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
